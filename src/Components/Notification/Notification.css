@@ -1,0 +1,29 @@
+:root {
+    --color-btn-link: #ffab00;
+}
+
+.notification {
+    background-color: #000;
+    color: #fefefe;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.notification .btn_link{
+    font-size: 1.2rem;
+    background: none;
+    color: var(--color-btn-link);
+    border: none;
+    border-bottom: 1px solid var(--color-btn-link);
+    outline: none;
+    padding: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
